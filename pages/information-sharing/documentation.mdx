@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Documentação
 ---
 
 import Callout from 'components/callout'
@@ -7,38 +7,38 @@ import Podcast from 'components/podcast'
 
 <Podcast code="6476452" />
 
-We've gotten a lot of advice over the years in building Clearbit, much of it instrumental to our success. Once such piece was given by Moisey Uretsky, cofounder of Digital Ocean, concerning documentation.
+Ao longo dos anos, recebemos muitos conselhos na construção da Clearbit — muitos deles fundamentais para o nosso sucesso. Um deles foi dado por Moisey Uretsky, cofundador da Digital Ocean, sobre documentação.
 
-According to Moisey, documentation was the secret to how Digital Ocean effectively scaled up the company, letting them rapidly hire hundreds of employees without grinding to a halt. Not only did they document every process inside the company, but they made documentation a core part of their culture.
+Segundo Moisey, a documentação foi o segredo para a Digital Ocean escalar a empresa de forma eficaz, permitindo contratar rapidamente centenas de colaboradores sem travar. Eles não apenas documentaram cada processo dentro da empresa, mas fizeram da documentação uma parte central de sua cultura.
 
-Why does documentation work so well? Let's consider the alternative: storing information in people's brains. Brains are meant for having ideas, not storing them. Brains have slow information retrieval (you have to interrupt someone), slow information transferral (verbal communication is much slower than written), and they also can't be searched.
+Por que a documentação funciona tão bem? Vamos considerar a alternativa: armazenar informações no cérebro das pessoas. Os cérebros foram feitos para ter ideias, não para armazená-las. Os cérebros têm recuperação lenta de informações (você precisa interromper alguém), transferência lenta de informações (a comunicação verbal é muito mais lenta do que a escrita) e também não podem ser pesquisados.
 
-As the company scales, the amount of questions that need to be answered on a given day also scales. If your team members are asking each other these questions, rather than referencing documentation and teaching themselves, scaling is impossible.
+À medida que a empresa escala, a quantidade de perguntas que precisam ser respondidas em um determinado dia também escala. Se os membros do seu time estão se perguntando uns aos outros em vez de consultar a documentação e aprender por conta própria, escalar se torna impossível.
 
-### Scaling documentation
+### Escalando a documentação
 
-There are now over 6 million articles on Wikipedia. How did they manage to scale this up without sacrificing quality? Not through central planning, that's for sure. It is physically unfeasible for one person to plan or manage such a large amount of information. No, they scaled by distributing consensus among thousands of editors applying the same standards.
+Agora existem mais de 6 milhões de artigos na Wikipédia. Como conseguiram escalar isso sem sacrificar a qualidade? Não foi através de planejamento centralizado, com certeza. É fisicamente inviável que uma pessoa planeje ou gerencie tamanha quantidade de informação. Não, eles escalaram distribuindo o consenso entre milhares de editores aplicando os mesmos padrões.
 
-What worked for Wikipedia will work for us. That means we are *all* responsible for documentation. If you create a product or process, document it in our wiki. If you have a question, and the wiki doesn't already contain the answer, document it. If you're onboarding and notice some documentation is wrong, fix it. We all need to become editors.
+O que funcionou para a Wikipédia vai funcionar para nós. Isso significa que *todos* somos responsáveis pela documentação. Se você cria um produto ou processo, documente-o na nossa wiki. Se você tem uma pergunta, e a wiki ainda não contém a resposta, documente-a. Se você está fazendo onboarding e percebe que alguma documentação está errada, corrija. Todos precisamos nos tornar editores.
 
-### I have a question
+### Tenho uma pergunta
 
-One of the most defining aspects of an organization is how it handles questions. A question is a failure of onboarding, since a perfect onboarding process would teach everyone everything (so they have no questions). However, since our onboarding will never be perfect, we need a system for handling questions when they invariably crop up.
+Um dos aspectos mais definidores de uma organização é como ela lida com perguntas. Uma pergunta é uma falha no onboarding, já que um processo de onboarding perfeito ensinaria tudo a todos (para que não tenham perguntas). No entanto, como nosso onboarding nunca será perfeito, precisamos de um sistema para lidar com perguntas quando elas inevitavelmente surgem.
 
-The system goes like this:
+O sistema funciona assim:
 
-1. You have a question.
-2. First, search our wiki to see if it contains the answer.
-3. If that doesn't work, search our [API docs](http://clearbit.com/docs), [attribute docs](http://clearbit.com/attributes), and [help center](https://help.clearbit.com/).
-4. If that doesn't work, ask the question in a public Slack channel (the most appropriate teams).
-5. Wait ten minutes.
-6. If that doesn't work, look up the person who's directly responsible via the AOR sheet ([Areas of responsibility](/information-sharing/areas-of-responsibility)), and private-message them on Slack.
-7. Lastly, and this is the most important step, *record* the answer in the wiki so the next person who has this question doesn't have to go through the entire process again.
+1. Você tem uma pergunta.
+2. Primeiro, pesquise na nossa wiki para ver se ela contém a resposta.
+3. Se isso não funcionar, pesquise na nossa [documentação de API](http://clearbit.com/docs), [documentação de atributos](http://clearbit.com/attributes) e [central de ajuda](https://help.clearbit.com/).
+4. Se ainda não funcionar, faça a pergunta em um canal público do Slack (o time mais adequado).
+5. Aguarde dez minutos.
+6. Se ainda não funcionar, procure a pessoa diretamente responsável pela planilha de AORs ([Áreas de responsabilidade](/information-sharing/areas-of-responsibility)) e mande uma mensagem privada no Slack.
+7. Por último, e este é o passo mais importante: *registre* a resposta na wiki para que a próxima pessoa que tiver essa pergunta não precise passar por todo o processo novamente.
 
-### Documenting processes
+### Documentando processos
 
-Every single process at the company is documented in our wiki. From how to open the office on the weekend to how to run payroll to how to rollback a migration, it's all in there.
+Cada processo da empresa está documentado na nossa wiki. Desde como abrir o escritório no fim de semana até como processar a folha de pagamento ou como reverter uma migração — tudo está lá.
 
-As we covered earlier, this is much more efficient than storing these processes in people's brains. This approach comes with another advantage, though: reducing our [bus factor](https://deviq.com/bus-factor/).
+Como mencionamos anteriormente, isso é muito mais eficiente do que armazenar esses processos no cérebro das pessoas. Essa abordagem traz outra vantagem: reduzir nosso [bus factor](https://deviq.com/bus-factor/).
 
-The more information that’s stored in people's heads, the more single points of failure we have. People aren't available for all sorts of reasons. They go on vacation, get sick, or leave the company. When they're unavailable, work gets blocked. We need to ensure that whatever is in their brains gets documented before that happens.
+Quanto mais informações estiverem armazenadas nas cabeças das pessoas, mais pontos únicos de falha teremos. As pessoas ficam indisponíveis por diversas razões. Vão de férias, ficam doentes ou deixam a empresa. Quando estão indisponíveis, o trabalho trava. Precisamos garantir que o que está na cabeça delas seja documentado antes que isso aconteça.
