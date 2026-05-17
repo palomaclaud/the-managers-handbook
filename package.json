@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "start": "next",
-    "build": "next build"
+    "build": "next build",
+    "export": "next build && next export"
   },
   "author": "Paloma Claudino",
   "email": "paloma.claud@gmail.com",
