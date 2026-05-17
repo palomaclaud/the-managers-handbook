@@ -5,7 +5,7 @@ import { SkipNavLink } from '@reach/skip-nav'
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head />
         <body>
           <SkipNavLink />

@@ -1,5 +1,5 @@
 {
-  "name": "swr-site",
+  "name": "the-managers-handbook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,13 @@
     "start": "next",
     "build": "next build"
   },
-  "author": "Shu Ding",
+  "author": "Paloma Claudino",
+  "email": "paloma.claud@gmail.com",
+  "url": "https://github.com/palomaclaud",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@reach/skip-nav": "^0.15.0",
     "@types/hast": "^2.3.1",

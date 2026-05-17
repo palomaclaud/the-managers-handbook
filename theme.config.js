@@ -54,7 +54,7 @@ export default {
         className="no-underline border border-purple-300 text-purple-500 px-4 py-1.5 rounded-md text-center hover:bg-purple-500 hover:text-white hover:border-purple-500 transition duration-300"
         href="https://www.amazon.com/Managers-Handbook-Alex-Maccaw/dp/1737438704"
       >
-        Paperback
+        Versão física
       </a>
     </div>
   ),
